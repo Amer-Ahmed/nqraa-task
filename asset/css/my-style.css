@@ -1,0 +1,40 @@
+/* webkit solution */
+::-webkit-input-placeholder 
+{ 
+  text-align:right; 
+}
+/* mozilla solution */
+input:-moz-placeholder 
+{
+  text-align:right; 
+}
+hr
+{
+  border: 1px solid #A9A9A9;
+}
+.project-details , .sensitivities-details
+{
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+}
+.error 
+{
+  border-color: red !important;
+  color:red !important; 
+  display: block;
+}
+.submit-project
+{
+  width: 25%;
+}
+.contant-submit-project {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.datepicker
+{
+  text-align: right;
+}
